@@ -1,5 +1,4 @@
 
-/* 
 $('#github-button').on('click', function() {
 
       fetch('https://github.com/login/oauth/authorize',
@@ -68,4 +67,4 @@ function makeCorsRequest() {
 }
 
 
-*/ 
+

@@ -18,7 +18,7 @@
 <body>
 	<!--Corrected p class='TopLabel' indentation for uniformity-->
     <p class="TopLabel"><label class="IssueLabel GoodFirstIssue">Good First Issue</label>.com</p>
-	<!--Correctr div and span indentation for readability parent to child elements-->
+	<!--Corrected div and span indentation for readability parent to child elements-->
 	<div class="container-fluid hidden-sm-down">
 		<div class="row">
 			<div class="col-md-12 text-center QuestionsSuggestions">
@@ -30,7 +30,7 @@
 	<span class="octicon octicon-clippy"></span>
 	<div class="container welcome">
 		<div class="row d-block">
-			<!--Correctr h1 and p indentation for readability parent to child elements-->
+			<!--Corrected h1 and p indentation for readability parent to child elements-->
 			<h1>Find Great Open Source Opportunities.</h1>
 			<p class="lead">Made for new contributors to find great Open Source projects.</p>
 			<p>Discover Issues and Repositories with <label class="IssueLabel HelpWanted">Help Wanted</label> <label class="IssueLabel StarterTask">Starter Task</label> and <Label class="IssueLabel GoodFirstIssue">Good First Issue</label> labels. </p>
@@ -43,7 +43,7 @@
 					<!--Corrected form, select and option indentation for readability parent to child elements-->
 					<form class="QueryParametersForm form-inline" onsubmit="onSubmitButton();return false;">
 						<!--Uncaught ReferenceError: token is not defined at HTMLSelectElement.onchange (index.html:46:80)-->
-						<select class="LanguageOptions form-control" onchange="onSubmitButton()">
+						<select class="LanguageOptions form-control" onchange="onSubmitButton();">
 							<option>Choose Language</option>
 							<option value="ActionScript">ActionScript</option>
 							<option value="C">C</option>
@@ -107,10 +107,7 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-<script src="script.js"></script>
+<script src="authenticate.js"></script>
+<script src="fetchdata.js"></script>
 </body>
 </html>
-
-<script>
-	//JS scripts moved to a scriptsheet to comply with best practices
-</script>

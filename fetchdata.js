@@ -8,27 +8,23 @@ query SearchIssues($query:String!, $after: String) {
     edges {
     	node {
         ... on Issue {
-         repository {
-	   owner {
-		login
-	   },
-	   url,
-           name,
-	   stargazers {
-		totalCount
-         	},
-           },
-
-           url,
-	   createdAt,
-
+        	repository {
+	   			owner 
+					{login},
+	   				url,
+           			name,
+	   				stargazers 
+						{totalCount},
+           	},
+			url,
+	   		createdAt,
         }
-      }
     }
+}
 
     pageInfo {
-      endCursor
-      hasNextPage
+      	endCursor
+      	hasNextPage
     }
   }
 }
